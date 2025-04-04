@@ -19,7 +19,7 @@ def process_image(model, image_path):
             class_id = int(cls)
             class_name = model.names[class_id]
             confidence = round(float(conf) * 100, 2)
-            length = round(abs(x2 - x1) * 3.1416, 2)
+            length = round(abs(x2 - x1) * 2.1416, 2)
             latitude = round(23.8103 + (y1 * 0.00001), 2)
             longitude = round(90.4125 + (x1 * 0.00001), 2)
 
