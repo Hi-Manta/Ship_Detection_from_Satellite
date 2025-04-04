@@ -74,7 +74,6 @@ Welcome to the **Ship Detection App**. Upload an image or video and let the mode
 
 with st.sidebar:
     st.header("🔧 Settings")
-    confidence_threshold = st.slider("Minimum Confidence (%)", 10, 100, 50)
     input_type = st.radio("Select Input Type", ("Image", "Video"))
     uploaded_file = st.file_uploader("Upload File", type=['png', 'jpg', 'jpeg', 'mp4'])
     download_placeholder = st.empty()
