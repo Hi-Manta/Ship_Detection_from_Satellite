@@ -86,7 +86,7 @@ if uploaded_file:
         with open(temp_path, 'wb') as f:
             f.write(uploaded_file.read())
 
-        model_path = 'F:/Projects/Ship_Detection_using_YOLO8/detect/train6/weights/best.pt'
+        model_path = 'best.pt'
         model = YOLO(model_path)
 
         summary = []
