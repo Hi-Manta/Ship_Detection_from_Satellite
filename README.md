@@ -58,4 +58,5 @@ ship-detection-app/
 
 ## 📌 Author
 **Zahid Al Noor Himanta** 
+
 Project Coordinator, Programming Club USTC
